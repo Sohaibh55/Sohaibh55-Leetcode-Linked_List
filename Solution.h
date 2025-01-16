@@ -32,11 +32,10 @@ void insert(ListNode* &head,int value)
 
 
 
-
 class Solution {
 public:
     ListNode* reverseList(ListNode* head);
-    ListNode* reverseList2(ListNode* head);
+    ListNode* reverseList2(ListNode* head); // Recursion
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2);
 };
 
